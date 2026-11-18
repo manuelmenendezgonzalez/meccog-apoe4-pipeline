@@ -1,0 +1,29 @@
+{
+  "total_items_evaluated": 41,
+  "total_real_findings": 21,
+  "total_planted_errors": 20,
+  "errors_removed": 19,
+  "errors_missed": 1,
+  "real_kept": 21,
+  "real_falsely_pruned": 0,
+  "error_removal_rate": 0.95,
+  "real_retention_rate": 1.0,
+  "breakdown_by_error_type": {
+    "FABRICATED_QUOTE": {
+      "total": 5,
+      "removed": 5
+    },
+    "POLARITY_INVERSION": {
+      "total": 5,
+      "removed": 4
+    },
+    "PROVENANCE_VIOLATION": {
+      "total": 5,
+      "removed": 5
+    },
+    "DOI_PMID_MISMATCH": {
+      "total": 5,
+      "removed": 5
+    }
+  }
+}

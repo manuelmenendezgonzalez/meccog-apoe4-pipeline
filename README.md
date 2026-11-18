@@ -43,3 +43,4 @@ Every `PMID`, `DOI`, retraction flag (`retracted == False`), and verbatim `Findi
 - `discover_h2_h5.py` — PubMed & Europe PMC discovery for H2–H5.
 - `meccog_h1_pipeline.py` — H1 curation and strict validation module.
 - `generate_all_submissions.py` — Unified builder, verbatim-quote & retraction verifier, and `--strict` validator for `submission_H1.xlsx` through `submission_H5.xlsx`.
+- `blind_pruning_benchmark.py` & `blind_benchmark_report.json` — Adversarial blind error-injection benchmark (21 real findings + 20 planted errors across fabricated quotes, DOI/PMID mismatches, provenance conflicts, and polarity inversions; **95.0% error removal rate [19/20]**, **100.0% real finding retention [21/21]**).
